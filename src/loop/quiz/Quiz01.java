@@ -4,33 +4,14 @@ public class Quiz01 {
 
 	public static void main(String[] args) {
 		
-//		int sum = 0;
-//		
-////		sum = sum + 1; //0+1
-////		sum = sum + 2; //1+2
-////		sum = sum + 3; //
-////		sum = sum + 4; //
-////		sum = sum + 5; //
-////		sum = sum + 6; //
-////		sum = sum + 7; //
-////		sum = sum + 8; //
-////		sum = sum + 9; //
-////		sum = sum + 10; //
-////		
-////		System.out.println("1부터 10까지의 합은 "+ sum +"입니다");
+		int sum = 0;    // 합을 구할 땐 변수를 0으로 초기화할 것.
+		int num = 10;   // 시작값을 10으로 초기화
 		
-		int sum = 0; //합계
-		int num = 1; //더하는 수
-		
-		while(num <= 10) {
+		while(num <= 20) {
 			sum = sum + num;
-			num++;
+			num++;   // num = num +2;  로 하면 5번 실행함(?)  10 + 12 + 14 + ...
 		}
 		System.out.println(sum);
-		
-			
-		
-			
-		}
 	}
 
+}
